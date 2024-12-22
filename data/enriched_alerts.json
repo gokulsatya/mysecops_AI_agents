@@ -1,0 +1,16 @@
+[
+    {
+        "alert_id": "123",
+        "timestamp": "2024-12-01T12:00:00Z",
+        "source_ip": "192.168.1.1",
+        "event_type": "failed_ssh_login",
+        "enrichment": "Alert Enrichment:\n\nAlert ID: 123\nTimestamp: 2024-12-01T12:00:00Z\nEvent Type: Failed SSH Login\nSource IP: 192.168.1.1\n\nEnriched Information:\n\n1. Geographical Location: Based on the IP address, geographical information such as the city, country, and latitude-longitude can be determined. This data is not available at the moment and requires an IP location service to retrieve.\n\n2."
+    },
+    {
+        "alert_id": "124",
+        "timestamp": "2024-12-01T12:05:00Z",
+        "source_ip": "192.168.1.2",
+        "event_type": "failed_ssh_login",
+        "enrichment": "Alert ID: 124\nDate & Time (UTC): 2024-12-01T12:05:00Z\nEvent Type: Failed SSH Login Attempt\nEvent Description: The system has detected an unsuccessful attempt to gain unauthorized access through SSH (Secure Shell).\nSource IP: 192.168.1.2\n\nAdditional Info: \n\n1. An SSH login failure could signify a potential brute force or password cracking attempt. \n2. The source IP could possibly belong to an attacker"
+    }
+]

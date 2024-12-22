@@ -1,0 +1,18 @@
+[
+    {
+        "alert_id": "123",
+        "source_ip": "192.168.1.1",
+        "ioc": "Brute Force Attack",
+        "description": "Matched known IOC",
+        "ttp": "TA0001: Initial Access",
+        "ai_threat": "Model Theft: Inversion"
+    },
+    {
+        "alert_id": "124",
+        "source_ip": "192.168.1.2",
+        "ioc": "Credential Stuffing",
+        "description": "Matched known IOC",
+        "ttp": "TA0003: Execution",
+        "ai_threat": "Data Poisoning"
+    }
+]

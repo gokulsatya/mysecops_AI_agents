@@ -1,0 +1,14 @@
+[
+    {
+        "alert_id": "123",
+        "timestamp": "2024-12-01T12:00:00Z",
+        "source_ip": "192.168.1.1",
+        "event_type": "failed_ssh_login"
+    },
+    {
+        "alert_id": "124",
+        "timestamp": "2024-12-01T12:05:00Z",
+        "source_ip": "192.168.1.2",
+        "event_type": "failed_ssh_login"
+    }
+]
