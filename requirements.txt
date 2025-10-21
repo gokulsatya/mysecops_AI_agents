@@ -2,3 +2,5 @@ openai
 elasticsearch
 streamlit
 flask
+python-dotenv
+pandas
