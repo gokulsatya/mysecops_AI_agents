@@ -1,7 +1,14 @@
 import openai
+import os
+from dotenv import load_dotenv
 
-# Replace "your-api-key" with your OpenAI API key
-openai.api_key = "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"
+# Load environment variables
+load_dotenv()
+
+# Set your OpenAI API key from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
+if not openai.api_key:
+    raise ValueError("OPENAI_API_KEY not found in environment variables. Please set it in .env file.")
 
 # Create a chat-based request using the new API
 response = openai.ChatCompletion.create(
